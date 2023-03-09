@@ -6,22 +6,22 @@
    * colors
    */
 
-  --violet-blue-crayola: hsla(234, 50%, 64%, 1);
+  --pink-nina: rgb(239, 3, 57);
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
   --white: hsla(0, 0%, 100%, 1);
   --white_a3: hsla(0, 0%, 100%, 0.03);
   --white_a8: hsla(0, 0%, 100%, 0.08);
   --white_a12: hsla(0, 0%, 100%, 0.12);
-  --white_a70: hsla(0, 0%, 100%, 0.7);
+  --white_a70: rgb(239, 3, 57);
   --cultured: hsla(220, 20%, 97%, 1);
   --lavender-web: hsla(233, 52%, 94%, 1);
-  --cadet-blue-crayola: hsla(220, 12%, 70%, 1);
-  --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
-  --charcoal: hsla(218, 22%, 26%, 1);
+  --cadet-blue-crayola: rgb(239, 3, 57);
+  --cadet-blue-crayola_a20: rgb(239, 3, 57);
+  --charcoal: rgb(239, 3, 57);
   --raisin-black: hsla(216, 14%, 14%, 1);
   --light-gray: hsla(0, 0%, 79%, 1);
-  --blue-crayola: hsla(219, 72%, 56%, 1);
-  --black-coral: hsla(220, 12%, 43%, 1);
+  --blue-crayola: rgb(239, 3, 57);
+  --black-coral: rgb(239, 3, 57);
 
   /**
    * typography
@@ -447,7 +447,6 @@ body.nav-active { overflow: hidden; }
   top: 50%;
   transform: translateY(-50%);
   background-color: var(--white_a70);
-  color: var(--charcoal);
   font-size: 2rem;
   padding: 12px;
   border-radius: var(--radius-circle);
