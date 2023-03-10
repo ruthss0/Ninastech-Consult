@@ -481,7 +481,7 @@ body.nav-active { overflow: hidden; }
   background-color: var(--violet-blue-crayola);
   display: grid;
   place-items: center;
-  color: var(--white);
+  color: var(--pink-nina);
   font-size: 2.5rem;
   border-radius: var(--radius-circle);
   margin-inline: auto;
