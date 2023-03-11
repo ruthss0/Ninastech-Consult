@@ -2,17 +2,18 @@
 
 :root {
 
-  /**
-   * colors
-   */
+/* COLORS */
 
   --pink-nina: rgb(239, 3, 57);
+  --pink-nina1: rgb(255, 79, 117);
+  --pink-nina2: rgb(255, 3, 57);
+  --pink-nina3: rgb(128, 40, 59);
+  --pink-nina3: rgb(204, 2, 46);
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
   --white: hsla(0, 0%, 100%, 1);
   --white_a3: hsla(0, 0%, 100%, 0.03);
   --white_a8: hsla(0, 0%, 100%, 0.08);
   --white_a12: hsla(0, 0%, 100%, 0.12);
-  --white_a70: rgb(239, 3, 57);
   --cultured: hsla(220, 20%, 97%, 1);
   --lavender-web: hsla(233, 52%, 94%, 1);
   --cadet-blue-crayola: rgb(239, 3, 57);
@@ -418,7 +419,7 @@ body.nav-active { overflow: hidden; }
 .hero-card .play-btn:is(:hover, :focus-visible) { color: var(--violet-blue-crayola); }
 
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 var(--white_a70); }
+  0% { box-shadow: 0 0 0 0 var(--pink-nina1); }
   75% { box-shadow: 0 0 0 20px transparent; }
 }
 
@@ -446,7 +447,7 @@ body.nav-active { overflow: hidden; }
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: var(--white_a70);
+  background-color: var(--pink-nina1);
   font-size: 2rem;
   padding: 12px;
   border-radius: var(--radius-circle);
