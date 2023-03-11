@@ -5,7 +5,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 79, 117);
+    background-color: rgb(239, 3, 57);
     overflow-x: hidden;
     height: 100vh;
     font-family: 'Urbanist', sans-serif;
@@ -59,7 +59,7 @@ input {
 
     position: relative;
     height: 100%;
-    background-color: #323444;
+    background-color: #fff;
     border-radius: 10px;
     padding: 30px 35px;
 }
@@ -95,17 +95,17 @@ input {
 
 .dots div:nth-child(1){
 
-    background-color: var(--current-color1);
+    background-color: rgb(128, 40, 59);
 }
 
 .dots div:nth-child(2){
 
-    background-color: #5B85F9;
+    background-color:rgb(239, 3, 57);
 }
 
 .dots div:nth-child(3){
 
-    background-color: #000;
+    background-color: rgb(255, 79, 117);
 }
 
 .card .infos{
@@ -123,7 +123,7 @@ input {
 .infos .name{
 
     font-size: 30px;
-    color: var(--current-color1);
+    color: rgb(128, 40, 59);
     letter-spacing: 8px;
     margin-bottom: 20px;
     padding-left: 25%;
@@ -133,7 +133,7 @@ input {
 .infos .lorem{
 
     font-size: 15.5px;
-    color: #ECEAED;
+    color: rgb(128, 40, 59);
     letter-spacing: 3px;
 }
 
@@ -179,7 +179,7 @@ input {
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 45%);
     transform: translate3d(-70%, 0, -220px);
     --current-color1: #ECEAED;
-    --current-color2: #404457;
+    --current-color2: #ECEAED;
 }
 
 #s1:checked~.cards #slide5,
@@ -190,7 +190,7 @@ input {
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 45%);
     transform: translate3d(-35%, 0, -120px);
     --current-color1: #ECEAED;
-    --current-color2: #404457;
+    --current-color2: #ECEAED;
 }
 
 #s1:checked~.cards #slide1,
@@ -200,8 +200,8 @@ input {
 #s5:checked~.cards #slide5 {
     box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 50%);
     transform: translate3d(0, 0, 0);
-    --current-color1: #fad00c;
-    --current-color2: #ECEAED;
+    --current-color1: rgb(255, 79, 117);
+    --current-color2: #404457;
 }
 
 #s1:checked~.cards #slide2,
@@ -212,7 +212,7 @@ input {
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 45%);
     transform: translate3d(35%, 0, -120px);
     --current-color1: #ECEAED;
-    --current-color2: #404457;
+    --current-color2: #ECEAED;
 }
 
 #s1:checked~.cards #slide3,
@@ -223,5 +223,5 @@ input {
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 45%);
     transform: translate3d(70%, 0, -220px);
     --current-color1: #ECEAED;
-    --current-color2: #404457;
+    --current-color2: #ECEAED;
 }
