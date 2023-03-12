@@ -105,7 +105,7 @@ input {
 
 .dots div:nth-child(3){
 
-    background-color: rgb(255, 79, 117);
+    background-color: #000;
 }
 
 .card .infos{
