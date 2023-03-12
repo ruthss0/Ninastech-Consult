@@ -123,7 +123,7 @@ input {
 .infos .name{
 
     font-size: 30px;
-    color: rgb(128, 40, 59);
+    color: rgb(255, 79, 117);
     letter-spacing: 8px;
     margin-bottom: 20px;
     padding-left: 25%;
@@ -133,7 +133,7 @@ input {
 .infos .lorem{
 
     font-size: 15.5px;
-    color: rgb(128, 40, 59);
+    color: #232533;
     letter-spacing: 3px;
 }
 
