@@ -4,11 +4,11 @@
 
 /* COLORS */
 
-  --pink-nina: rgb(239, 3, 57);
-  --pink-nina1: rgb(255, 79, 117);
+  --pink-nina: rgb(255, 27, 80);
+  --pink-nina1: rgb(255, 29, 78);
   --pink-nina2: rgb(255, 3, 57);
-  --pink-nina3: rgb(128, 40, 59);
-  --pink-nina3: rgb(204, 2, 46);
+  --pink-nina3: rgb(213, 6, 51);
+  --pink-nina4: rgb(108, 105, 106);
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
   --white: hsla(0, 0%, 100%, 1);
   --white_a3: hsla(0, 0%, 100%, 0.03);
@@ -22,7 +22,7 @@
   --raisin-black: hsla(216, 14%, 14%, 1);
   --light-gray: hsla(0, 0%, 79%, 1);
   --blue-crayola: rgb(239, 3, 57);
-  --black-coral: rgb(239, 3, 57);
+  --black-coral: rgb(240, 35, 83);
 
   /**
    * typography
@@ -174,6 +174,7 @@ body.nav-active { overflow: hidden; }
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background: linear-gradient(110deg, var(--pink-nina1) 60%, var(--pink-nina4) 60%);
 }
 
 .h1,
@@ -281,11 +282,12 @@ body.nav-active { overflow: hidden; }
   gap: 16px;
 }
 
-.header.active .logo-light,
-.header .logo-dark { display: none; }
+/* .header.active .logo-light,
+/* .header .logo-dark { display: none; } */
+/* 
+.header .logo-light, */
 
-.header .logo-light,
-.header.active .logo-dark { display: block; }
+/* .header.active .logo-dark { display: block; } */ 
 
 .nav-open-btn {
   font-size: 3.5rem;
