@@ -5,15 +5,15 @@
 /* COLORS */
 
   --pink-nina: rgb(255, 27, 80);
-  --pink-nina1: rgb(255, 29, 78);
-  --pink-nina2: rgb(255, 3, 57);
-  --pink-nina3: rgb(213, 6, 51);
-  --pink-nina4: rgb(108, 105, 106);
+  --pink-nina1: rgb(255, 44, 90);
+  --pink-nina2: rgb(118, 3, 38);
+  --pink-nina3: rgb(228, 148, 166);
+  --pink-nina4: rgb(152, 0, 58);
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
   --white: hsla(0, 0%, 100%, 1);
   --white_a3: hsla(0, 0%, 100%, 0.03);
   --white_a8: hsla(0, 0%, 100%, 0.08);
-  --white_a12: hsla(0, 0%, 100%, 0.12);
+  --white_a12: hsla(0, 33%, 93%, 0.12);
   --cultured: hsla(220, 20%, 97%, 1);
   --lavender-web: hsla(233, 52%, 94%, 1);
   --cadet-blue-crayola: rgb(239, 3, 57);
@@ -23,6 +23,7 @@
   --light-gray: hsla(0, 0%, 79%, 1);
   --blue-crayola: rgb(239, 3, 57);
   --black-coral: rgb(240, 35, 83);
+  --pink-nina10: rgb(255, 29, 78);
 
   /**
    * typography
@@ -174,7 +175,7 @@ body.nav-active { overflow: hidden; }
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background: linear-gradient(110deg, var(--pink-nina1) 60%, var(--pink-nina4) 60%);
+  background: linear-gradient(110deg, var(--pink-nina2) 10%,var(--pink-nina4)50%, var(--pink-nina1) 80%);
 }
 
 .h1,
@@ -281,13 +282,21 @@ body.nav-active { overflow: hidden; }
   align-items: center;
   gap: 16px;
 }
-
-/* .header.active .logo-light,
-/* .header .logo-dark { display: none; } */
 /* 
-.header .logo-light, */
+.header.active .logo-light,
+.header .logo-dark { display: none; } 
 
-/* .header.active .logo-dark { display: block; } */ 
+.header .logo-light,
+
+ .header.active .logo-dark { display: block; } */
+
+
+ .logo{
+   color:hsl(0, 0%, 98%);
+ }
+ 
+
+
 
 .nav-open-btn {
   font-size: 3.5rem;
