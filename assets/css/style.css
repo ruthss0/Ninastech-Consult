@@ -5,8 +5,8 @@
 /* COLORS */
 
   --pink-nina: rgb(255, 27, 80);
-  --pink-nina1: rgb(160, 158, 158);
-  --pink-nina2: rgb(80, 78, 79);
+  --pink-nina1:  rgb(255, 44, 90);
+  --pink-nina2: rgb(113, 3, 58);
   --pink-nina3: rgb(228, 148, 166);
   --pink-nina4: rgb(152, 0, 58);
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
@@ -25,6 +25,7 @@
   --black-coral: rgb(240, 35, 83);
   --pink-nina10: rgb(255, 29, 78);
   --pink-nina11: rgb(255, 44, 90);
+  --pink-nina12:rgb(244, 235, 235);
 
   /**
    * typography
@@ -459,7 +460,7 @@ body.nav-active { overflow: hidden; }
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: var(--pink-nina1);
+  background-color: var(--pink-nina12);
   font-size: 2rem;
   padding: 12px;
   border-radius: var(--radius-circle);
@@ -639,6 +640,7 @@ FEATURES
   overflow: hidden;
   box-shadow: var(--shadow-2);
   height: 100%;
+  width: 90%;
 }
 
 .project-card .card-content { padding: 30px; }
@@ -700,7 +702,7 @@ FEATURES
 .footer {
   background-color: var(--charcoal);
   padding-block: 60px 100px;
-  color: var(--light-gray);
+  color: var(--white);
 }
 
 .footer-brand .footer-text { margin-block: 20px; }
