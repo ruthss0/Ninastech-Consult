@@ -297,6 +297,9 @@ body.nav-active { overflow: hidden; }
    color:hsl(0, 0%, 98%);
  }
  
+ .social-list ion-icon {
+   font-size: 40px;
+ }
 
 
 
@@ -994,7 +997,10 @@ FEATURES
 
   /* FOOTER */
 
-  .footer .grid-list { grid-template-columns: repeat(4, 1fr); }
+  .footer .grid-list { grid-template-columns: repeat(4, 1fr); 
+
+  position: relative;
+  left: 500px;
 
 }
 
