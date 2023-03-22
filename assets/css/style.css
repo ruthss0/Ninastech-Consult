@@ -293,8 +293,15 @@ body.nav-active { overflow: hidden; }
  .header.active .logo-dark { display: block; } */
 
 
- .logo{
+ .logotion{
    color:hsl(0, 0%, 98%);
+   font-size: small;
+   
+  
+ }
+
+ .logtop image {
+   height:28px;
  }
  
  .social-list ion-icon {
@@ -1000,7 +1007,7 @@ FEATURES
   .footer .grid-list { grid-template-columns: repeat(4, 1fr); 
 
   position: relative;
-  left: 500px;
+  left: 120px;
 
 }
 
