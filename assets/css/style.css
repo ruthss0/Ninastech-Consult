@@ -262,7 +262,7 @@ body.nav-active { overflow: hidden; }
   flex-wrap: nowrap;
   background-color: var(--white);
   color: var(--black-coral);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.3;
 }
 
@@ -337,7 +337,7 @@ body.nav-active { overflow: hidden; }
  }
 
  .logotop img {
-   height: 90px;;
+   height: 67px;;
  }
  
  .social-list ion-icon {
