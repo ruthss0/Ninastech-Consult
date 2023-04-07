@@ -571,6 +571,10 @@ body.nav-active { overflow: hidden; }
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
+.about {
+  --section-padding: 200px;
+}
+
 
 .about .container {
   display: grid;
@@ -835,7 +839,7 @@ FEATURES
    * PROJECTS
    */
 
-  .project-card .card-content { padding: 40px; }
+  .project-card .card-content { padding: 23px; }
 
 }
 
@@ -859,7 +863,7 @@ FEATURES
      * spacing
      */
 
-    --section-padding: 120px;
+    --section-padding: 170px;
 
   }
 
@@ -918,6 +922,8 @@ FEATURES
   .about .container {
     grid-template-columns: 1fr 0.7fr;
     align-items: center;
+    padding: 128px;
+    
   }
 
 
