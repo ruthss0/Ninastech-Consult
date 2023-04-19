@@ -338,7 +338,8 @@ body.nav-active { overflow: hidden; }
  }
 
  .logotop img {
-   height: 67px;;
+  width: 60px;
+  height: 38px;
  }
  
  .social-list ion-icon {
