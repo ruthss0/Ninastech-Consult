@@ -292,6 +292,7 @@ body.nav-active { overflow: hidden; }
 
 
 
+
 .header .btn { display: none; }
 
 .header {
@@ -493,9 +494,27 @@ body.nav-active { overflow: hidden; }
   position: relative;
   display: flex;
   align-items: flex-start;
-  gap: 8px;
-  transition: var(--transition-2);
+  gap: 2px;
+  transition: var(--transition-2);    
+  width: 100%;
+  } 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hero .slider-item {
   min-width: 100%;
@@ -1155,3 +1174,4 @@ FEATURES
   .feature-list { grid-template-columns: 1fr 1fr; }
 
 }
+
